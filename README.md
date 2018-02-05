@@ -35,7 +35,7 @@ Created with the **JavaScript p5.js library**
 
 ## Difficulties
 ### Sound
-The first problem was connected with the AudioIn function. It does not always correcly work, so trying multiple times the issue has been detected: 
+The first problem was connected with the **AudioIn function**. It does not always correcly work, so trying multiple times the issue has been detected: 
 ```
 This uses the getUserMedia/ Stream API, which is not supported by certain
 browsers.Access in Chrome browser is limited to localhost and https, but 
@@ -46,12 +46,20 @@ access over http may be limited.
 The problem was solved creating 2 applications: one useful for phones that can use the microphone and another one that use, instead of interacting by voice, the interaction by time (*where the user have to use or not his time to interact*).
 
 ### Control structures - conditionals
-The hardest problem was connected to the "if" condition. Once all the objects where created there was the necessity to check which of them was the last living one. The problem was that, with just this condition active 
+The hardest problem was connected to the **"if" condition**. Once all the objects where created there was the necessity to check which of them was the last living one. The following syntax works in the exposed case, but not for the other two "if". 
 ```
 if ((thirdLp <= 0) && (secondLp <= 0)){
    //lines of code
     }
 ```
+The problem has been fixed changing the multiple condition if with a **nested if**
+```
+if (secondLp <= 0){
+         if (firstLp <= 0){
+        }
+         }
+```
+
 ## Authors
 
 Huang Liying

@@ -12,9 +12,9 @@ Created with the JavaScript p5.js library
 
 ### Addon libraries
 
-*p5.dom
-*p5
-*p5.sound
+* p5.dom
+* p5
+* p5.sound
 
 ## Difficulties
 
@@ -22,7 +22,9 @@ Created with the JavaScript p5.js library
 ## Authors
 
 **Huang Liying** 
+
 **Giada Passerini**
+
 **Runyu Tang**
 
 ## Acknowledgments

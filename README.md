@@ -1,3 +1,4 @@
+[![Video Example](https://i.ytimg.com/vi/c-vhrv-1Ctg/maxresdefault.jpg)](https://www.youtube.com/watch?v=SQNtGoM3FVU)
 # A Little Evolution
 A Little Evolution is an application that through user interactions aim to reproduce the Darwin evolution of the species process.
 ### Idea

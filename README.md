@@ -1,10 +1,10 @@
-[![Video Example](https://i.ytimg.com/vi/c-vhrv-1Ctg/maxresdefault.jpg)](https://www.youtube.com/watch?v=SQNtGoM3FVU)
 # A Little Evolution
 A Little Evolution is an application that through user interactions aim to reproduce the Darwin evolution of the species process.
 ### Idea
 What the project wants to show is how one single species can evolve due to changes of environment where he lives in. 
 The aim is to explain the complexity and uncontrollability of the features that characterize the process of evolution, reducing it into his simplier form using just abstract graphic. 
 ### Aspect
+![Video Example](http://i64.tinypic.com/2vult8m.jpg)
 The **father** object, represented by a polygon, is located on the top part of the screen and it represent the **species that needs to evolve.** On the second row are displayed 3 polygons: they represent the **possible different evolution** that the father object can have.
 Colour, size and shape are randomly defined for the species, but connected to the evolution process: each one of the represented elements will keep one of the father's characteristics, and generate two new ones. When one object is dying, it will gradually fade away. 
 ### Mechanism

@@ -57,6 +57,7 @@ The problem has been fixed changing the multiple condition if with a **nested if
 ```
 if (secondLp <= 0){
          if (firstLp <= 0){
+         //lines of code
         }
          }
 ```
